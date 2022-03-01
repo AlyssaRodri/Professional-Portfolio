@@ -1,0 +1,29 @@
+h1{
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 300%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    color: #2A2C24;
+}
+
+nav ul{
+    display: flex;
+    margin: 3%;
+    justify-content: space-around;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section h2{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 200%;
+    color: #2A2C24;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.column{
+   flex: 1 2 0;
+
+
+}
