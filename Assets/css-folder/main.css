@@ -21,10 +21,11 @@ nav ul{
     color: #2A2C24;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 15%;
+    margin-bottom: 3%;
 }
 
 .profile-photo{
-   flex: 1 2 0;
+   max-width: 300px;
 }
 
 .aboutme {
@@ -36,4 +37,18 @@ p {
     display: flex;
     margin: 5% 0 0 50%;
     justify-content: flex-end;
+}
+
+figure{
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+figure figcaption {
+    display: none;
+}
+
+figure.figcaption:hover {
+    display: block;
 }
