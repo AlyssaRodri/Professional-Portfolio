@@ -59,17 +59,9 @@ a:visited {
     margin: 10px;
 }
 
-figure{
-    margin: 5%;
+.card {
     display: flex;
-}
-
-figure figcaption {
-    display: none;
-}
-
-figure.figcaption:hover {
-    display: block;
+    
 }
 
 #contact-me{
@@ -78,6 +70,7 @@ figure.figcaption:hover {
 
 .footersection {
     background-color: var(--navclr);
+    height: 15rem;
 }
 
 .contact-info {
