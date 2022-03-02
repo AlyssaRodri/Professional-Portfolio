@@ -39,8 +39,9 @@ a:visited {
     font-size: 200%;
     color: var(--darkclr);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 15%;
-    margin-bottom: 3%;
+    padding: 2rem;
+    /* margin-left: 15%;
+    margin-bottom: 3%; */
 }
 
 .profile-photo{
@@ -50,13 +51,6 @@ a:visited {
 .bio {
     margin-bottom: 3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-p {
-    /* display: flex;
-    /* margin: 5% 0 0 50%; */
-    /* justify-content: flex-end; */
-    /* display: inline; */
 }
 
 .aboutmesection {
@@ -78,15 +72,17 @@ figure.figcaption:hover {
     display: block;
 }
 
-#contact-me {
-    display: flex;
-    justify-content: center;
-    font-size: 200%;
-    color: var(--darkclr);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+#contact-me{
+    color: var(--lightclr);
 }
 
-.contact-info {
+.footersection {
     background-color: var(--navclr);
 }
 
+.contact-info {
+    display: inline;
+    padding: 7rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--lightclr);
+}
