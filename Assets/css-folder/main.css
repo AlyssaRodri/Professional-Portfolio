@@ -59,10 +59,24 @@ a:visited {
     margin: 10px;
 }
 
-.card {
+main {
     display: flex;
-    
-}
+    margin-top: 3%;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+  }
+  
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+  }
+  
+  .card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+  }
 
 #contact-me{
     color: var(--lightclr);
