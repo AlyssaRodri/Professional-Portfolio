@@ -68,6 +68,7 @@ main {
     margin-top: 3%;
     flex-wrap: wrap;
     margin-bottom: 3%;
+    border-style: 1rem dotted var(--darkclr);
   }
   
   .main-header {
@@ -76,10 +77,17 @@ main {
     padding: 60px;
   }
   
+#imgcard1 {
+  width: 60rem;
+}
+
   .card {
     flex: 1 0 0;
-    /* padding: 10px; */
+    padding: 1rem;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--darkclr);
+  
   }
 
 #contact-me{
