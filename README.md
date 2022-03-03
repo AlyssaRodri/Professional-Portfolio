@@ -1,4 +1,10 @@
-# Portfolio Advanced CSS Homework 2
+# Professional Portfolio
 
-## Attributes
+## Objectives 
+
+## Screenshot of Final Page
+
+## Link to Final Page
+
+## Contributions
 reset.css from Eric Meyers website (public domain)
