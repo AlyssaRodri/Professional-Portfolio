@@ -50,6 +50,8 @@ a:visited {
 /* Worked with tutor to achieve the side by side. */
 .profile-photo{
    max-width: 300px;
+   /* max-height needs to be adjusted for different images. */
+   max-height: 200px;
    margin-left: 5%;
 }
 /* Worked with tutor to achieve the side by side. */
@@ -57,8 +59,10 @@ a:visited {
    /* Be careful when resizing the margin. It can cause the image to go below the text. */
     margin-bottom: 3%;
     margin-right: 15%;
-    padding: 2%;
+    /* margin-left is a little tricky due to the side by side image and text. Try to use padding instead. */
+    padding: 3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* display is at block for side by side imaging. Breaks will need to be added to HTML for more content to be added. */
     display: block;
     flex-wrap: wrap;
 }
@@ -66,10 +70,16 @@ a:visited {
 .aboutmesection {
     display: flex;
     justify-content: space-between;
+    /* Lower margin when there is more information added to about me section. */
     margin: 10px;
+}
+/* image sizing has been incredibly difficult. I decided to fix the sizing for smaller screens in @media section. */
+#imgcard1 {
+    width: 60rem;
 }
 
 main {
+    /*flex wrap for scaling. Margin for styling.*/
     display: flex;
     margin-top: 3%;
     flex-wrap: wrap;
@@ -83,13 +93,14 @@ main {
   }
 
   .card {
+      /* Cards created to achieve the side by side effect. */
     flex: 1 0 0;
     padding: 1rem;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--darkclr);
   }
-
+/* contact me create into the footer. */
 #contact-me{
     color: var(--lightclr);
 }
@@ -114,18 +125,20 @@ main {
 }
 
 @media screen and (max-width: 768px) {
+    /* Changes the header into block format for smaller screens. */
     #my-work {
         display: block;
     }
+    /* image scaling has been difficult but only for the smaller screens. I added it to media to help. */
     #imgcard1{
-        display: flex;
         max-width: 50%;
     }
 
 }
 
 @media screen and (max-width: 425px){
-        nav ul {
+       /* Changes the header into block format for smaller screens */
+    nav ul {
             display: block;
         }
 }
