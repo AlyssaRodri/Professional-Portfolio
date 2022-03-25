@@ -109,7 +109,7 @@ p {
 }
 
 /* added to make link in image more noticible. */
-.imgcard:hover{
+.card:hover{
     border-width: 20px;
     border-style: solid;
     border-color: var(--navclr);

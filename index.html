@@ -43,6 +43,7 @@
     </header>
 
     <section>
+        <!-- About me section -->
         <h2 id="about-me">About Me</h2>
         <div class="aboutmesection">
             <div class="container">
@@ -51,6 +52,7 @@
                     <img class="profile-photo" src="./Assets/images/Profile.jpg" alt="Headshot of myself.">
                   </div>
                   <div class="col-md">
+                      <!-- Here I put the seperate paragraphs in different p tags as it was easier to manipulate. -->
                     <p>Hello! Thank you for coming to my portfolio. A little bit about me before you view my work. My name is Alyssa Rodriguez and I am part of the SMU Coding Cohort for the spring of 2022. </p>
 
                     <p>While my experience in the Tech field is limited, I am eager to learn. I have worked in an office setting with my time at Asset Control, a background check company. Where I was given the opportunity to run an entire department.</p>
@@ -66,19 +68,19 @@
     <main>
         
         <!-- Cards made for apps and sites -->
-        <div class="card group1" >
+        <div id="card1"class="card group1" >
             <img class="card-img-top" src="https://eugene125.github.io/project-1/assets/nba.png" alt="NBA Logo">
             <div class="card-body">
               <p class="card-text"> In this project I worked with a small group of 4 to develop a website that could be used to do all sorts of research on the NBA. We were able to do this with the use of a few different APIs. This work really displays my progress with JavaScript.</p>
             </div>
           </div>
-        <div class="card" >
+        <div id="card2" class="card" >
             <img class="card-img-top" src="./Assets/images/day-planner-img.png" alt="Screenshot of my day planner product">
             <div class="card-body">
               <p class="card-text"> Here I created a day planner that saves the users input into local storage and dynamically changes the date. This product is a good mix of my skills in HTMl and JavaScript</p>
             </div>
           </div>
-        <div class="card" >
+        <div id="card3" class="card" >
             <img class="card-img-top" src="./Assets/images/finalwebpage.png" alt="Screenshot of my code quiz.">
             <div class="card-body">
               <p class="card-text"> In this assignment I created an interactive code quiz based on all of the knowledge that I have gained in my class. It is a best display of my JavaScript work.</p>
@@ -90,21 +92,20 @@
 
     <section class="footersection">
         <h2 id="contact-me"> Contact Me</h2>
-        <ul>
             <ul>
+                <!-- Contact Me section -->
                 <li class="contact-info"> 940.465.3190 </li>
                 <li class="contact-info"> arodri.develop@yahoo.com </li>
                 <li class="contact-info"><a href="https://www.linkedin.com/in/alyssa-rodriguez-935433152/">LinkedIn</a> </li>
                 <li class="contact-info"><a href="https://github.com/AlyssaRodri">GitHub</a></li>
             </ul>
-
-        </ul>
     </section>
 
-
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="./Assets/js/script.js"></script>
 
 </body>
 </html>
