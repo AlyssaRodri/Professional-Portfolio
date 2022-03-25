@@ -5,6 +5,8 @@
     --lightclr: #fff;
 }
 
+
+
 h1{
     /* display flex allows the words in the heading to move around */
     display: flex;
@@ -24,11 +26,13 @@ nav ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
     background-color: var(--navclr);
     height: 5rem;
     /* I did try to add flex wrap, but was having difficult getting the right sizing. Please see media section*/
 }
+
+
 /* Practiced Pseudo classes for comprehension and styling. */
 a:link {
     color: var(--lightclr);
@@ -39,44 +43,24 @@ a:visited {
 }
 
  h2{
-    display: flex;
-    justify-content: center;
+
     font-size: 200%;
     color: var(--darkclr);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 2rem;
+    margin-bottom: 2rem;
 
 }
 /* Worked with tutor to achieve the side by side. */
 .profile-photo{
-   max-width: 300px;
+   max-width: 30rem;
    /* max-height needs to be adjusted for different images. */
-   max-height: 200px;
+   max-height: 20rem;
    margin-left: 5%;
-}
-/* Worked with tutor to achieve the side by side. */
-.bio {
-   /* Be careful when resizing the margin. It can cause the image to go below the text. */
-    margin-bottom: 3%;
-    margin-right: 15%;
-    /* margin-left is a little tricky due to the side by side image and text. Try to use padding instead. */
-    padding: 3%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* display is at block for side by side imaging. Breaks will need to be added to HTML for more content to be added. */
-    display: block;
-    flex-wrap: wrap;
+   box-shadow: 3px 2px 2px #2a2c24;
 }
 
-.aboutmesection {
-    display: flex;
-    justify-content: space-between;
-    /* Lower margin when there is more information added to about me section. */
-    margin: 10px;
-}
-/* image sizing has been incredibly difficult. I decided to fix the sizing for smaller screens in @media section. */
-#imgcard1 {
-    width: 60rem;
-}
+
 
 main {
     /*flex wrap for scaling. Margin for styling.*/
@@ -84,22 +68,27 @@ main {
     margin-top: 3%;
     flex-wrap: wrap;
     margin-bottom: 3%;
-  }
+}
   
-  .main-header {
+.main-header {
     display: flex;
     justify-content: space-between;
     padding: 60px;
-  }
+}
 
-  .card {
+p {
+    padding: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card {
       /* Cards created to achieve the side by side effect. */
     flex: 1 0 0;
     padding: 1rem;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--darkclr);
-  }
+}
 /* contact me create into the footer. */
 #contact-me{
     color: var(--lightclr);
