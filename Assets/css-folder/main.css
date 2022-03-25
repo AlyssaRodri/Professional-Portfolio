@@ -83,11 +83,13 @@ p {
 
 .card {
       /* Cards created to achieve the side by side effect. */
-    flex: 1 0 0;
+    border: dotted #2a2c24;
     padding: 1rem;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--darkclr);
+    width: 30%;
+    margin: 1rem;
 }
 /* contact me create into the footer. */
 #contact-me{
