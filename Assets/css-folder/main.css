@@ -102,10 +102,11 @@ p {
 }
 
 .contact-info {
-    display: inline;
-    padding: 7rem;
+    display: flex;
+    flex-wrap: wrap;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--lightclr);
+    margin: 1%
 }
 
 /* added to make link in image more noticible. */
