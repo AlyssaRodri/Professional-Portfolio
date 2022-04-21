@@ -42,7 +42,7 @@ a:visited {
     color: var(--lightclr);
 }
 
- h2{
+h2{
 
     font-size: 200%;
     color: var(--darkclr);
@@ -88,7 +88,8 @@ p {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--darkclr);
-    width: 30%;
+    /* width: 30%; */
+    height: 60vh;
     margin: 1rem;
 }
 /* contact me create into the footer. */
@@ -134,3 +135,8 @@ p {
             display: block;
         }
 }
+
+/* 
+@tailwind base;
+@tailwind components;
+@tailwind utilities; */
