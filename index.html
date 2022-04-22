@@ -9,9 +9,8 @@
   <!-- Reset.css provided by Meyers -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-  <link rel="stylesheet" href="./Assets/css-folder/reset.css" />
+  <!-- <link rel="stylesheet" href="./Assets/css-folder/reset.css" /> -->
   <link rel="stylesheet" href="./Assets/css-folder/main.css" />
-  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
 
 
 
@@ -55,7 +54,7 @@
           <div class="col-md">
             <img class="profile-photo" src="./Assets/images/Profile.jpg" alt="Headshot of myself.">
           </div>
-          <div class="col-md">
+          <div id="bio" class="col-md card">
             <!-- Here I put the seperate paragraphs in different p tags as it was easier to manipulate. -->
             <p>Hello! Thank you for coming to my portfolio. A little bit about me before you view my work. My name is
               Alyssa Rodriguez and I am part of the SMU Coding Cohort for the spring of 2022. </p>
@@ -71,38 +70,73 @@
       </div>
     </div>
   </section>
-  <h2 id="my-work">My Work</h2>
-  <main>
-    <div class="row">
-      <div id="card1" class="col">
-        <img class="card-img-top" src="https://eugene125.github.io/project-1/assets/nba.png" alt="NBA Logo">
-        <div class="card-body">
-          <p class="card-text"> In this project I worked with a small group of 4 to develop a website that could be used to do all sorts of research on the NBA. We were able to do this with the use of a few different APIs. This work really displays my progress with JavaScript.</p>
-        </div>
-      </div>
 
-      <div class="col">
-        <div id="card2" class="card">
-          <img class="card-img-top" src="./Assets/images/day-planner-img.png"
-            alt="Screenshot of my day planner product">
+  <h2 id="my-work">My Work</h2>
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div id="card1" class="col card clickable">
+          <img class="card-img-top" src="https://eugene125.github.io/project-1/assets/nba.png" alt="NBA Logo">
           <div class="card-body">
-            <p class="card-text"> Here I created a day planner that saves the users input into local storage and dynamically changes the date. This product is a good mix of my skills in HTMl and JavaScript </p>
+            <p class="card-text"> In this project I worked with a small group of 4 to develop a website that could be
+              used
+              to do all sorts of research on the NBA. We were able to do this with the use of a few different APIs. This
+              work really displays my progress with JavaScript.</p>
           </div>
         </div>
-      </div>
 
-      <div class="col">
-        <div id="card3" class="card">
-          <img class="card-img-top" src="./Assets/images/finalwebpage.png" alt="Screenshot of my code quiz.">
-          <div class="card-body">
-            <p class="card-text"> In this assignment I created an interactive code quiz based on all of the knowledge that I have gained in my class. It is a best display of my JavaScript work.
-            </p>
+        <div class="col">
+          <div id="card2" class="card clickable">
+            <img class="card-img-top" src="./Assets/images/day-planner-img.png"
+              alt="Screenshot of my day planner product">
+            <div class="card-body">
+              <p class="card-text"> Here I created a day planner that saves the users input into local storage and
+                dynamically changes the date. This product is a good mix of my skills in HTMl and JavaScript </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div id="card3" class="card clickable">
+            <img class="card-img-top" src="./Assets/images/finalwebpage.png" alt="Screenshot of my code quiz.">
+            <div class="card-body">
+              <p class="card-text"> In this assignment I created an interactive code quiz based on all of the knowledge
+                that I have gained in my class. It is a best display of my JavaScript work.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Cards made for apps and sites -->
-
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div id="card4" class="card clickable">
+            <img class="card-img-top resize" src="./Assets/images/image-portfolio.png"
+              alt="Dashboard page from plantblog">
+            <div class="card-body">
+              <p class="card-text">
+                This is my second group project and first example of full stack work. Essentially, it is a social blog
+                space for all plant lovers.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div id="card5" class="card clickable">
+            <img class="card-img-top resize" src="./Assets/images/employeeman.jpg"
+              alt="Dashboard page from plantblog">
+            <div class="card-body">
+              <p class="card-text">
+                Here you can view a piece of my back-end work where I created a database for companies to keep track of their employees.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 
   <section class="footersection">

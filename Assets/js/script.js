@@ -10,3 +10,9 @@ $("#card2").on("click", function(){
 $("#card3").on("click", function(){
     window.open("https://alyssarodri.github.io/web-APIs-code-quiz/")
 })
+$("#card4").on("click", function(){
+    window.open("https://agile-atoll-06958.herokuapp.com/")
+})
+$("#card5").on("click", function(){
+    window.open("https://youtu.be/xRkpBydiYtg")
+})

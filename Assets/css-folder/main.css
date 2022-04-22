@@ -1,8 +1,9 @@
 /* Color Group! */
 :root {
-    --darkclr: #2a2c24;
-    --navclr: rgb(86, 109, 86);
-    --lightclr: #fff;
+    --darkclr: #160f29;
+    --navclr: #246a73;
+    --lightclr: #f3dfc1;
+    --bkgclr: #368f8b;
 }
 
 
@@ -42,9 +43,12 @@ a:visited {
     color: var(--lightclr);
 }
 
-h2{
+body{
+    background-color: var(--bkgclr);
+}
 
-    font-size: 200%;
+h2{
+    font-size: 4rem;
     color: var(--darkclr);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 2rem;
@@ -57,18 +61,10 @@ h2{
    /* max-height needs to be adjusted for different images. */
    max-height: 20rem;
    margin-left: 5%;
-   box-shadow: 3px 2px 2px #2a2c24;
+   box-shadow: 1rem 1rem 1rem var(--darkclr);
+   border-radius: 10rem;
 }
 
-
-
-main {
-    /*flex wrap for scaling. Margin for styling.*/
-    display: flex;
-    margin-top: 3%;
-    flex-wrap: wrap;
-    margin-bottom: 3%;
-}
   
 .main-header {
     display: flex;
@@ -76,22 +72,34 @@ main {
     padding: 60px;
 }
 
-p {
+#bio{
     padding: 2rem;
+    height: auto;
+}
+
+p {
+    /* padding: 2rem; */
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .card {
-      /* Cards created to achieve the side by side effect. */
-    border: dotted #2a2c24;
-    padding: 1rem;
+    padding-top: 1rem;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--darkclr);
-    /* width: 30%; */
-    height: 60vh;
+    height: 100vh;
     margin: 1rem;
+    box-shadow: 1rem 1rem 1rem var(--darkclr);
+    border-radius: 1rem;
+
 }
+
+.resize {
+    max-width: 75%;
+    max-height: 90%;
+    margin: auto;
+}
+
 /* contact me create into the footer. */
 #contact-me{
     color: var(--lightclr);
@@ -99,7 +107,7 @@ p {
 
 .footersection {
     background-color: var(--navclr);
-    height: 15rem;
+    height: auto;
 }
 
 .contact-info {
@@ -111,32 +119,9 @@ p {
 }
 
 /* added to make link in image more noticible. */
-.card:hover{
-    border-width: 20px;
+.clickable:hover{
+    border-width: 1rem;
     border-style: solid;
     border-color: var(--navclr);
 }
 
-@media screen and (max-width: 768px) {
-    /* Changes the header into block format for smaller screens. */
-    #my-work {
-        display: block;
-    }
-    /* image scaling has been difficult but only for the smaller screens. I added it to media to help. */
-    #imgcard1{
-        max-width: 50%;
-    }
-
-}
-
-@media screen and (max-width: 425px){
-       /* Changes the header into block format for smaller screens */
-    nav ul {
-            display: block;
-        }
-}
-
-/* 
-@tailwind base;
-@tailwind components;
-@tailwind utilities; */
