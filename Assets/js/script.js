@@ -16,3 +16,19 @@ $("#card4").on("click", function(){
 $("#card5").on("click", function(){
     window.open("https://youtu.be/xRkpBydiYtg")
 })
+
+$("project1").on("click", function(){
+    window.open("https://github.com/eugene125/project-1" )
+})
+$('dayPlanner').on("click", function (){
+    window.open('https://github.com/AlyssaRodri/day-planner')
+})
+$('codeQuiz').on("click", function (){
+    window.open('https://github.com/AlyssaRodri/web-APIs-code-quiz' )
+})
+$('project2').on("click", function (){
+    window.open('https://github.com/AlyssaRodri/plant-store' )
+})
+$('employeeMan').on("click", function (){
+    window.open('https://github.com/AlyssaRodri/employee-management')
+})
